@@ -924,19 +924,19 @@
   resolved "https://registry.yarnpkg.com/@csstools/convert-colors/-/convert-colors-1.4.0.tgz#ad495dc41b12e75d588c6db8b9834f08fa131eb7"
   integrity sha512-5a6wqoJV/xEdbRNKVo6I4hO3VjyDq//8q2f9I6PBAvMesJHFauXDorcNCsr9RzvsZnaWi5NYCcfyqP1QeFHFbw==
 
-"@dokoo/content-api@^0.0.5":
-  version "0.0.5"
-  resolved "https://registry.yarnpkg.com/@dokoo/content-api/-/content-api-0.0.5.tgz#e9b434556a8eae280ff79cc76126cc638b86d793"
-  integrity sha512-NdeSZ2VP41VR4GVBt9e/j4TDm5glNYYZz5Vi2qkfdiY5zVrapylAaFUzunXoXZYAUAXQ8iptwcmXypdBxlojVw==
+"@dokoo/nuxt@^0.0.10":
+  version "0.0.10"
+  resolved "https://registry.yarnpkg.com/@dokoo/nuxt/-/nuxt-0.0.10.tgz#e9c2e0193a43f129baed2a199abc76eda6ad856e"
+  integrity sha512-JqfLyjnHVppfD69o1aJHQkOivzfaNG6MPNZBvUM0oRMEHE5EKedjtbdliIu9mds1APFhGL0eKGfjhmSEPE4Z/w==
+  dependencies:
+    "@dokoo/sdk-js" "^0.0.16"
+
+"@dokoo/sdk-js@^0.0.16":
+  version "0.0.16"
+  resolved "https://registry.yarnpkg.com/@dokoo/sdk-js/-/sdk-js-0.0.16.tgz#6689fa2ad37380c43d199890b392ffe51b659d11"
+  integrity sha512-kPnAKb7apsV79JgJascSZX+tDAkq3tU3eB/6lfSjgYn/o0kUVRuIuQWT4cn2x49z0+Qaerlw77HPuB/0ZJ54hw==
   dependencies:
     axios "^0.21.4"
-
-"@dokoo/nuxt@^0.0.7":
-  version "0.0.7"
-  resolved "https://registry.yarnpkg.com/@dokoo/nuxt/-/nuxt-0.0.7.tgz#6bd904c75e058540b2541c678a6accded0e6b7fc"
-  integrity sha512-BMk77C7CR/F06nAcjMNr6yy8Iuw52WYS5qa8rj6UIIrwKgGdlGQAcU/uMzpU2wBPiniwN8KiOG4dvn6EBahbbg==
-  dependencies:
-    "@dokoo/content-api" "^0.0.5"
 
 "@eslint/eslintrc@^0.4.3":
   version "0.4.3"
